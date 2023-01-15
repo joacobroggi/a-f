@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardd {
+    align-self: center;
+    justify-self: center;
+   
+    background-size: cover;
+    background-position: center;
+    height: 38em;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.cardd:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+.h1 {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 5rem;
+}
+.h3 {
+    color: cyan;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.album {
+    background-image: url('img/album.jpg');
+}
+
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+    
+    .cardd {
+        
+        height: 30em;
+        
+        width: 30em;
+        margin: 5em 1em;
+    }
+}

@@ -1,0 +1,115 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-bottom: 5vh;
+}
+h1 {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+   font-size: 4rem;
+}
+.l {
+    color: #FF449F;
+}
+.j {
+    color: #005F99;
+}
+
+.flex-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+
+.cancion {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 20vw;
+    margin: 2vh 2vw;
+    border-radius: 20px;
+    text-decoration: none;
+    flex-direction: column;
+}
+.txt {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    width: 100%;
+    /* padding: 0px 10px; */
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.aMi {
+    background: url("img/aMi.jpg");
+}
+.laMejor {
+    background: url("img/lamejor.jpg");
+}
+.siSup {
+    background: url("img/siSup.jpg");
+}
+.juanes {
+    background: url("img/juanes.jpg");
+}
+.comoTe {
+    background: url('img/comoTeveo.jpg');
+}
+.luna {
+    background: url('img/laLuna.jpg');
+}
+.cafu {
+    background: url('img/cafu.jpg');
+}
+.carme {
+    background: url('img/carme.jpg');
+}
+.humbe {
+    background: url('img/humbe.jpg');
+}
+.carta {
+    background: url('img/carta.jpg');
+}
+.cursi {
+    background: url('img/cursi.jpg');
+}
+.bazzi {
+    background: url('img/bazzi.jpg');
+}
+.fire {
+    background: url('img/fire.jpg');
+}
+.next {
+    background: url('img/next.jpg');
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 5000px) and (min-width: 100px) {
+    
+    .cancion {
+        margin: 1em auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 20rem;
+       
+        width: 18rem;
+        
+     }
+}
+

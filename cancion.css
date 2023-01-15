@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.volver {
+    align-self: flex-start;
+}
+.flex-container-cancion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+.cardd {
+    align-self: center;
+    justify-self: center;
+   
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.album {
+    background-image: url('/img/album.jpeg');
+}
+
+
+.code {
+    height: 5rem;
+    width: 18rem;
+    border-radius: 20px;
+}
