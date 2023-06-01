@@ -1,3 +1,6 @@
+a {
+    font-family: 'Amatic SC', cursive;
+}
 body {
     display: flex;
     align-items: center;
